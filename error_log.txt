@@ -1,0 +1,2 @@
+[2026-03-31 15:46:27] ERROR in forced_connection_error: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019C7F165D10>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-03-31 15:46:28] ERROR in forced_404: HTTPError — 404 Not Found for product ID 999
